@@ -4,6 +4,9 @@
 <title>Make My Journey</title>
 <link rel="stylesheet" href="travel.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
 
@@ -183,9 +186,11 @@ I enjoy with my whole heart. I am alone, and feel the charm of existence in this
 <section class="footer">
 <div class="fo1">
 <div>
-<img src="https://a6e8z9v6.stackpathcdn.com/hotelmaster/main4/wp-content/uploads/sites/4/2019/07/logo.png">
+<div class="fo2" >
+
+<img src="https://a6e8z9v6.stackpathcdn.com/hotelmaster/main4/wp-content/uploads/sites/4/2019/07/logo.png"  >
 </div>
-<div class="fo2">
+<div class="fo2" >
 <h3>
 CONTACT INFO</h3>
 <ul style="list-style:none;">
@@ -194,13 +199,13 @@ CONTACT INFO</h3>
 <li style="margin-left:68px;">Email: reserve@hotelmaster.co</li>
 </ul>
 </div>
-<div class="fo3">
+<div class="fo3" data-aos="fade-up">
 <h3>ADRESS</h3>
 <p align="left" style="padding-left:70px; padding-right:70px; margin-top:20px;">Hotel Master Av.
 del Ejercito, 2, 1900
 Madrid, Spain</p>
 </div>
-<div class="fo4">
+<div class="fo4" >
 <h3>AWARDS</h3>
 <ul style="list-style:none; margin-top:-20px;"><li><img float="left" src="https://a6e8z9v6.stackpathcdn.com/hotelmaster/main4/wp-content/uploads/sites/4/2019/08/footer-logo-1.jpg"></li></ul>
 </div>
@@ -212,7 +217,7 @@ Madrid, Spain</p>
 <h4>Copyright 2019, All Right Reserved</h4>
 </div>
 
-<div class="f22">
+<div class="f22" data-aos="fade-up">
 <ul class="fl">
 <li><i class="fa fa-facebook"></i></li>
 <li><i class="fa fa-instagram"></i></li>
@@ -223,6 +228,11 @@ Madrid, Spain</p>
 </div>
 
 </section>
-
+<script>
+  AOS.init({
+   offset:200,
+   duration:1500
+  });
+</script>
 </body>
 </html>
